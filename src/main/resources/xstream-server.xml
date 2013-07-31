@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+                        http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+    
+    <bean id="application" class="com.company.XStreamServer">
+        <property name="marshaller" ref="xstreamMarshaller" />
+        <property name="unmarshaller" ref="xstreamMarshaller" />
+    </bean>
+
+    <!-- Explicitly define the aliases -->
+    <bean id="xstreamMarshaller" class="org.springframework.oxm.xstream.XStreamMarshaller">
+        <!-- Spring Documentation Warning: http://static.springsource.org/spring/docs/3.2.x/spring-framework-reference/html/oxm.html -->
+        <!-- By default, XStream allows for arbitrary classes to be unmarshalled, which can result in security vulnerabilities. As such, it is recommended to set the supportedClasses property on the XStreamMarshaller -->
+        <property name="supportedClasses" value="com.company.model.ContactImpl"/>
+        <property name="aliases">
+            <props>
+                <prop key="contact">com.company.model.ContactImpl</prop>
+            </props>
+        </property>
+    </bean>
+
+    <!-- Tell XStream to find the alias names in the following classes -->
+    <!--bean id="xstreamMarshaller" class="org.springframework.oxm.xstream.XStreamMarshaller">
+        <property name="autodetectAnnotations" value="true" />
+        <property name="annotatedClass" value="com.company.model.ContactImpl"/>
+        <property name="supportedClasses" value="com.company.model.ContactImpl"/>
+    </bean-->
+
+
+</beans>
