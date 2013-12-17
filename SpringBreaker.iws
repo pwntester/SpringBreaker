@@ -1,29 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7cea9eed-57ae-435b-97b6-8b6f156793a1" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contact.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/proxy.ser" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/company/CastorServer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/company/XStreamServer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/pwntester/springbreaker/EventHandlerCastorExploit.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/pwntester/springbreaker/EventHandlerJAXB2Exploit.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/pwntester/springbreaker/EventHandlerXStreamExploit.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/pwntester/springbreaker/FactoryProxyXStreamExploit.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/AutoEventHandlerXStreamExploit.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/EventHandlerXStreamExploit.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/castor-exploit.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/castor-server.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/jaxb2-exploit.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/serialization-exploit.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/xstream-exploit.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/xstream-server.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/pwntester/springbreaker/FactoryProxySerializationExploit.java" afterPath="$PROJECT_DIR$/src/main/java/org/pwntester/springbreaker/FactoryProxySerializationExploit.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpringBreaker.ipr" afterPath="$PROJECT_DIR$/SpringBreaker.ipr" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpringBreaker.iws" afterPath="$PROJECT_DIR$/SpringBreaker.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run-server.sh" afterPath="$PROJECT_DIR$/run-server.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run.sh" afterPath="$PROJECT_DIR$/run.sh" />
-    </list>
+    <list default="true" id="7cea9eed-57ae-435b-97b6-8b6f156793a1" name="Default" comment="" />
     <ignored path="SpringBreaker.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/pom.xml" changelist="7cea9eed-57ae-435b-97b6-8b6f156793a1" time="1364812513283" ignored="false" />
