@@ -1,1 +1,1 @@
-mvn clean compile exec:java -Dexec.mainClass="org.pwntester.springbreaker.ProxyExploit"
+mvn clean compile exec:java -Dexec.mainClass="org.pwntester.springbreaker.FactoryProxySerializationExploit"

@@ -1,1 +1,1 @@
-mvn clean compile exec:java -Dexec.mainClass="Server"
+mvn clean compile exec:java -Dexec.mainClass="SerializationServer"
