@@ -9,7 +9,7 @@
         <repository>
             <id>codehaus</id>
             <name>Maven Codehaus repository</name>
-            <url>http://repository.codehaus.org/</url>
+            <url>https://repository.codehaus.org/</url>
         </repository>
     </repositories>
     <dependencies>
